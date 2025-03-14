@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="toDo.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <h1 id="main_heading">Todo App</h1>
+    <div class="grid_container">
+        <input id="todo_input" type="text" placeholder="Enter Todo Here">
+        <input id='todo_date' type="date">
+        <button id="btn_add" onclick="addToDo();">Add</button>
+    </div>
+    <div class="todo_container grid_container"></div>
+    
+    <!-- Fixed Save button -->
+    <button id="btn_save" onclick="saveToDoList();">Save</button>
+
+    <script src="toDo.js"></script>
+</body>
+</html>
